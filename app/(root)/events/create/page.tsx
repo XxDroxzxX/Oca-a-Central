@@ -8,7 +8,8 @@ const CreateEvent = () => {
 
   return (
     <>
-      <section className="bg-primary bg-dotted-pattern bg-cover bg-center py-5 md:py-10">
+      <section style={{
+        backgroundImage: `url(https://media.istockphoto.com/id/1366076842/fr/photo/concert-et-festival-foule-de-gens-qui-font-la-f%C3%AAte.jpg?s=170667a&w=0&k=20&c=LFDYmlWasTKzifhl0qhgqJMNIUx2kU3eVsiZfk4QV2k=)`}} >
         <h3 className="wrapper h3-bold text-center sm:text-left">Create Event</h3>
       </section>
 

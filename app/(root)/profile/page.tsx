@@ -23,7 +23,8 @@ const ProfilePage = async ({ searchParams }: SearchParamProps) => {
   return (
     <>
       {/* My Tickets */}
-      <section className="bg-primary-50 bg-dotted-pattern bg-cover bg-center py-5 md:py-10">
+      <section style={{
+        backgroundImage: `url(https://utfs.io/f/01133d63-138d-4c02-96c0-11f84024aadd-wawas4.png)`}}>
         <div className="wrapper flex items-center justify-center sm:justify-between">
           <h3 className='h3-bold text-center sm:text-left'>My Tickets</h3>
           <Button asChild size="lg" className="button hidden sm:flex">
@@ -46,9 +47,10 @@ const ProfilePage = async ({ searchParams }: SearchParamProps) => {
           totalPages={orders?.totalPages}
         />
       </section>
-
+      
       {/* Events Organized */}
-      <section className="bg-primary-50 bg-dotted-pattern bg-cover bg-center py-5 md:py-10">
+      <section style={{
+        backgroundImage: `url(https://images.unsplash.com/photo-1553695750-ad0b596c4f80?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)`}} >
         <div className="wrapper flex items-center justify-center sm:justify-between">
           <h3 className='h3-bold text-center sm:text-left'>Events Organized</h3>
           <Button asChild size="lg" className="button hidden sm:flex">
